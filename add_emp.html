@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <center>
+Add Employees Page<br>
+</center>
+</head>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+<table style = "width:35%">
+<form action="insertEmployee.php" method="post">
+  <tr>
+<th>First name: </th>
+<th><input type="text" name="FirstName"></th>
+</tr>
+<tr>
+<th>Last name: </th>
+<th><input type="text" name="LastName"></th>
+</tr>
+<tr>
+<th>Email: </th>
+<th><input type="text" name="Email"></th>
+</tr>
+<tr>
+<th>Store ID:</th>
+<th>
+  <select id="StoreID" name="StoreID">
+      <option value="">Store ID</option>
+      <option value="1"> 1 </option>
+      <option value="2"> 2 </option>
+    </select>
+</th>
+</tr>
+<tr>
+<th>Address: </th>
+  <th><input type="text" name="Address"></th>
+</tr>
+<tr>
+<th>City ID:</th>
+<th> <input type="text" name="city"></th>
+</tr>
+<tr>
+<th>District:</th>
+<th> <input type="text" name="District"></th>
+</tr>
+<tr>
+<th>Postal Code:</th>
+<th> <input type="text" name="PostalCode"></th>
+</tr>
+<tr>
+<th>Phone:</th>
+<th> <input type="text" name="Phone"></th>
+</tr>
+<br>
+<input type="submit" value="Save">
+
+</form>
+
+<form action="manager.html" method="post">
+<input type="submit" value="Cancel">
+</form>
+
+</table>
+</html>
